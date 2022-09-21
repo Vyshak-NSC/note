@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Monsterrat",sans-serif ;
+}
+
+header {
+    background-color: #6060e7;
+    padding: 16px 32px;
+    margin: auto -16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+header h1{
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+}
+
+.card {
+    width: 240;
+    margin: 16px;
+    display: flex;
+    max-width: 240;
+    border-radius: 7px;
+    max-height: 300px;
+    flex-direction: column;
+    box-shadow: 0 2px 5px #ccc;
+    float: left;
+    padding: 10px 10px 20px 10px;
+}
+
+#head{
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+}
+
+.card input[type='text'], #title{
+    font-size: 1.1em;
+    margin-bottom: 6px;
+    border: none;
+    width: 75%;
+    padding: 5px;
+    text-align: left;
+}
+
+.card input[type='button']{
+    background-color: #1877f2;
+    height: 25px;
+    width: 21%;
+    color: #eee;
+    font-weight: bold;
+    font-size: 15 px;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 0 2px 5px #ccc;
+}
+
+.card input[type='button']:hover{
+    cursor: pointer;
+    background-color: #166fe5;
+}
+
+.card hr, #lin{
+    height: 2px;
+    width: 95%;
+    background-color: black;
+    margin-bottom: 5px;
+}
+.card textarea, #note{
+    height: 100px;
+    border: 1;
+    padding: 5;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    resize: none;
+    font-size: 15px;
+}
+
+#card-footer {
+    top: 50px;
+    text-align: right;
+    font-size: smaller;
+    width: 94%;
+    font-weight: 550;
+    transition: opacity 1s;
+}
